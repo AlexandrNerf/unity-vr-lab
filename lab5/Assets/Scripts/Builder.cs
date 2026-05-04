@@ -150,8 +150,8 @@ public class Builder : MonoBehaviour
     private void RenderScheme(string building)
     {
         // Удаляем старые картинки
-        foreach (Transform child in schemeContainer)
-            Destroy(child.gameObject);
+        // foreach (Transform child in schemeContainer)
+        //     Destroy(child.gameObject);
 
         if (string.IsNullOrEmpty(building)) return;
 
